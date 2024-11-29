@@ -1,0 +1,74 @@
+.SearchAndUnits-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    padding-top: 1rem;
+    gap: 2rem;
+    align-items: center;
+  }
+  
+  .input-wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+  }
+  
+  .input-field {
+    font-size: 1.125rem;
+    font-weight: 300;
+    padding: 0.25rem 0.75rem;
+    width: 100%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 9999px;
+    color: #4b5563;
+    text-transform: capitalize;
+    border: unset;
+  }
+  
+  .input-field::placeholder {
+    text-transform: lowercase;
+    color: #a0aec0;
+    font-size: 0.875rem;
+  }
+  
+  .input-field:focus {
+    outline: none;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.4);
+  }
+  
+  .search-icon {
+    font-size: 1.75rem;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.3s ease-out;
+  }
+  
+  .search-icon:hover {
+    transform: scale(1.25);
+  }
+  
+  .unit-separator {
+    color: white;
+    font-weight: 300;
+    font-size: 1.25rem;
+    margin: 0 0.5rem;
+  }
+
+.toggle-button {
+  padding: 10px 10px;
+  font-size: 14px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.toggle-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.25);
+}

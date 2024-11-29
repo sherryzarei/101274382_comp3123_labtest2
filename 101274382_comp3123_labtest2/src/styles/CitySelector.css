@@ -1,0 +1,21 @@
+.top-button-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1.5rem 0;
+    gap: 1.5rem;
+  }
+  
+  .top-button {
+    border-radius: 70px;
+    background-color: #FFAAAA;
+    padding: 10px 20px; 
+    border: unset;
+    cursor: pointer; 
+  }
+  
+  .top-button:hover {
+    background-color: #D3F1DF; 
+  }
+  
+  
